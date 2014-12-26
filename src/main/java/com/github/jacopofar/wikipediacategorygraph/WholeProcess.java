@@ -27,7 +27,7 @@ import java.io.IOException;
  */
 public class WholeProcess {
     public static void main(String argc[]) throws IOException{
-        String categoryFile="enwiki-20141208-category.sql";
+        String categoryFile="category.sql";
         String categoryLinksFile="categorylinks.sql";
         String dbFolder="categorygraph";
         if(argc.length==3){
