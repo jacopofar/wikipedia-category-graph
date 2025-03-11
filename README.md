@@ -1,6 +1,9 @@
 Wikipedia category graph loader
 ========================
 
+## Archiving note:
+This project is now archived because it's not updated since 11 years and th only effect it has is to cause dependabot alerts :). It did work at the time and I assume it still does or can work with minimal changes to adapt to newer versions of neo4j.
+
 An implementation of the algorithm of the article "Automatically assigning Wikipedia articles to macro-categories".
 
 It loads the wikipedia category graph in a Neo4j embedded instance, then proceed to calculate the distance of each category from a set of chosen ones.
